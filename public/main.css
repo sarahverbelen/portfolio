@@ -1,0 +1,365 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #010400;
+    overflow-x: hidden;
+}
+
+
+* {
+    color: #576784;
+    font-family: 'Lato';
+    z-index: 1;
+}
+
+h1, h3, a:hover {
+    color: #99B2DD;
+}
+
+h1 {
+    font-size: 80pt;
+}
+
+h2 {
+    font-size: 35pt;
+}
+
+h3 {
+    font-size: 27pt;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 18pt;
+}
+
+h2, h4 {
+    font-weight: 400;
+}
+
+
+#image {
+    /* background-image: url('images/sarah.png'); */
+    background-image: url('images/sarah2.svg');
+    width: 100vw;
+    height: 160vh;
+    /* position: fixed; */
+    z-index: -1;
+    background-size: cover;
+    margin-top: -40vh;
+    overflow: hidden;
+}
+ 
+ul {
+    list-style: none;
+}
+
+main {
+    position: absolute;
+    /* width: 100vw; */
+    top: 0px;
+    left: 0px;
+    padding-top: 69vh;
+    padding-left: 20px;
+}
+
+.intro {
+    margin-left: 5vw;
+    width: 45vw;
+    margin-bottom: 12vh;
+}
+
+#intro {
+    text-align: center;
+}
+
+#intro p {
+    font-size: 20pt;
+    width: 45vw;
+    margin-left: 20vw;
+}
+
+#skills div {
+    width: 20vw;
+    display: inline-block;
+    padding: 20px;
+}
+
+#links {
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+}
+
+#links ul li {
+    margin-bottom: 20px;
+}
+
+#links ul li a{
+    color: rgba(0,0,0,0);
+}
+
+#links ul li i {
+    color: #F2D6D4;
+    font-size: 20pt;
+    transition: .5s;
+}
+
+#links ul li i:hover {
+    color: #3E2220;
+}
+
+#skills div {
+    vertical-align: top;
+}
+
+#skills div h4 {
+    margin-bottom: 10px;
+}
+
+#skills, #works, #contact {
+    margin-left: 5vw;
+    margin-top: 50px;
+}
+
+#skills div, #works div , #contact ul li {
+    margin-left: 50px;
+    padding: 20px;
+    display: inline-block;
+}
+
+#skills div {
+    width: 400px;
+}
+
+.skill {
+    background-color: #3E2220;
+    height: 30px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-left-color: #F2D6D4;
+    border-left-width: 50px;
+    border-left-style: solid;
+    width: 390px;
+}
+
+.skill p {
+    color: #010400;
+    margin-left: -40px;
+}
+
+.javascript {
+    border-left-width: 290px;
+}
+
+.javascript p {
+    margin-left: -280px;
+}
+
+.nodejs {
+    border-left-width: 160px;
+}
+
+.nodejs p {
+    margin-left: -150px;
+}
+
+.html {
+    border-left-width: 350px;
+}
+
+.html p {
+    margin-left: -340px;
+}
+
+.css {
+    border-left-width: 300px;
+}
+
+.css p {
+    margin-left: -290px;
+}
+
+.illustrator {
+    border-left-width: 200px;
+}
+
+.illustrator p {
+    margin-left: -190px;
+}
+
+.psd {
+    border-left-width: 170px;
+}
+
+.psd p {
+    margin-left: -160px;
+}
+
+.xd {
+    border-left-width: 300px;
+}
+
+.xd p {
+    margin-left: -290px;
+}
+
+.dutch {
+    border-left-width: 380px;
+}
+
+.dutch p {
+    margin-left: -370px;
+}
+
+.english {
+    border-left-width: 340px;
+}
+
+.english p {
+    margin-left: -330px;
+}
+
+.french {
+    border-left-width: 80px;
+}
+
+.french p {
+    margin-left: -70px;
+}
+
+#works div {
+    vertical-align: top;
+}
+
+#works div a i {
+    color: #F2D6D4;
+    transition: .5s;
+    margin-right: 5px;
+}
+
+#works div a i:hover {
+    color: #3E2220;;
+}
+
+#works div img {
+    display: block;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+#works div h4 {
+    font-weight: 700;
+    margin-top: 15px;
+    color: #99B2DD;
+    margin-bottom: 5px;
+}
+
+#works div p {
+    width: 280px;
+}
+
+#contact ul li {
+    font-size: 18pt;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#contact ul li i {
+    margin-right: 20px;
+}
+
+#contact {
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1650px) {
+    h1 {
+        font-size: 60pt;
+    }
+
+    h2 {
+        font-size: 30pt;
+    }
+
+    .intro {
+        margin-bottom: 15vh;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #image {
+        height: 100vh;
+        margin-top: -20vh;
+
+    }
+
+    main {
+        padding-top: 50vh;
+    }
+
+    .intro {
+        width: 50vw;
+        margin-bottom: 10vh;
+    }
+
+    h1 {
+        font-size: 55pt;
+    }
+
+    #intro p{
+        font-size: 18pt;
+    }
+
+    #skills {
+        padding-top: 50px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #image {
+        height: 50vh;
+        margin-top: 0vh;
+    }
+
+    #links {
+        margin-top: 70px;
+    }
+
+    main {
+        padding-top: 40vh;
+    }
+
+    .intro {
+        width: 70vw;
+        margin-bottom: 5vh;
+    }
+
+    h1 {
+        font-size: 40pt;
+    }
+
+    h2 {
+        font-size: 25pt;
+    }
+
+    #intro p {
+        font-size: 15pt;
+    }
+
+    #skills div, #works div , #contact ul li {
+        margin-left: 20px;
+    }
+}
