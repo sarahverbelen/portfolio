@@ -121,12 +121,12 @@ main {
     margin-bottom: 10px;
 }
 
-#skills, #works, #contact {
+#skills, .works, #contact {
     margin-left: 5vw;
     margin-top: 50px;
 }
 
-#skills div, #works div , #contact ul li {
+#skills div, .works div , #contact ul li {
     margin-left: 50px;
     padding: 20px;
     display: inline-block;
@@ -234,34 +234,34 @@ main {
     margin-left: -70px;
 }
 
-#works div {
+.works div {
     vertical-align: top;
 }
 
-#works div a i {
+.works div a i {
     color: #F2D6D4;
     transition: .5s;
     margin-right: 5px;
 }
 
-#works div a i:hover {
+.works div a i:hover {
     color: #3E2220;;
 }
 
-#works div img {
+.works div img {
     display: block;
     margin-bottom: 10px;
     width: 250px;
 }
 
-#works div h4 {
+.works div h4 {
     font-weight: 700;
     margin-top: 15px;
     color: #99B2DD;
     margin-bottom: 5px;
 }
 
-#works div p {
+.works div p {
     width: 280px;
 }
 
@@ -281,6 +281,15 @@ a {
 
 #contact {
     padding-bottom: 30px;
+}
+
+#prototypeInfo{
+    font-size: 15px;
+    margin-left: 60px;
+}
+
+#prototypes h4 {
+    display: inline-block;
 }
 
 @media only screen and (max-width: 1650px) {
@@ -359,7 +368,7 @@ a {
         font-size: 15pt;
     }
 
-    #skills div, #works div , #contact ul li {
+    #skills div, .works div , #contact ul li {
         margin-left: 20px;
     }
 }
