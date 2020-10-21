@@ -9,10 +9,16 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/a42378b101.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Sarah Verbelen</title>
 </head>
 
 <body>
+    <script>
+        AOS.init();
+      </script>
+
     <div id="image"></div>
     <main>
         <section id="links">
@@ -30,13 +36,13 @@
             </div>
 
 
-            <p>Hello! My name is Sarah Verbelen. I'm a 20 year old student from Belgium with a focus on website design &
+            <p data-aos="fade-up">Hello! My name is Sarah Verbelen. I'm a 20 year old student from Belgium with a focus on website design &
                 development. Other than that I spend my time reading, writing, drawing cats and learning new things!</p>
         </section>
 
-        <section id="skills">
+        <section id="skills" data-aos="fade-right">
             <h3>Skills</h3>
-            <div>
+            <div >
                 <h4>Coding</h4>
                 <ul class="skills">
                     <li class="skill java"><p>Java</p></li>
@@ -47,16 +53,16 @@
                 </ul>
             </div>
 
-            <div>
+            <div >
                 <h4>Design</h4>
-                <ul class="skills">
+                <ul class="skills" >
                     <li class="skill illustrator"><p>Illustrator</p></li>
                     <li class="skill psd"><p>Photoshop</p></li>
                     <li class="skill xd"><p>Adobe XD</p></li>
                 </ul>
             </div>
 
-            <div>
+            <div >
                 <h4>Languages</h4>
                 <ul class="skills">
                     <li class="skill dutch"><p>Dutch</p></li>
@@ -66,10 +72,10 @@
             </div>
         </section>
 
-        <section id="works" class="works">
+        <section id="works" class="works" data-aos="fade-right">
             <h3>Previous Works</h3>
 
-            <div>
+            <div >
                 <img src="/images/finalshow.png" alt="Final Show 2020">
                 <a href="https://finalshow.web.app/desktopLanding" target="_blank" class="show"><i class="fas fa-eye"></i></a>
                 <a href="https://github.com/tomverheirstraeten/FinalShow" target="_blank" class="code"><i class="fas fa-code"></i></a>
@@ -82,7 +88,7 @@
                     physical event.</p>
             </div>
 
-            <div>
+            <div >
                 <img src="/images/dotsnpix.png" alt="Dots 'n Pix">
                 <a href="https://frontend-sarahv.web.app/" target="_blank" class="show"><i class="fas fa-eye"></i></a>
                 <a href="https://github.com/EHB-MCT/course-project-sarahverbelen-1/tree/master/DotsnPix/dotsnpix-app"
@@ -94,7 +100,7 @@
                     by a bunch of aliens (the speakers at the event) that lived in a city (the event itself). </p>
             </div>
 
-            <div>
+            <div >
                 <img src="/images/kmska.png" alt="KMSKA App">
                 <a href="https://youtu.be/VvkyVy_Ch2Y" target="_blank" class="show"><i class="fas fa-eye"></i></a>
                 <a href="https://github.com/seppeclottemans/Full_project3" target="_blank" class="code"><i class="fas fa-code"></i></a>
@@ -107,7 +113,7 @@
                     also coded parts of it ourselves in pure Javascript. </p>
             </div>
 
-            <div>
+            <div >
                 <img src="/images/abc.png" alt="ABC">
                 <a href="https://www.youtube.com/watch?v=g73r1ysTOOE" target="_blank" class="show"><i class="fas fa-eye"></i></a>
                 <a href="https://github.com/sarahverbelen/ABC" target="_blank" class="code"><i class="fas fa-code"></i></a>
@@ -122,7 +128,7 @@
 
         </section>
 
-        <section id="prototypes" class="works">
+        <section id="prototypes" class="works" data-aos="fade-right">
             <h3>Prototypes</h3>
             <p id="prototypeInfo">These were small prototypes for my Web III course in order to quickly get to know a new technology. </p>
             <div>
@@ -137,9 +143,16 @@
                 <p>It took me about two hours to learn how to make this small API using Restify. It can serve an HTML, return data with a get request and save data to a Mongo Atlas database using a post request. I used Postman to test the API routes.</p>
             </div>  
 
+            <div>
+                <a href="https://github.com/EHB-MCT/web3-prototypes-sarahverbelen/tree/master/plugin-prototype" target="_blank" class="code"><i class="fas fa-code"></i></a>
+                <a href="https://github.com/EHB-MCT/web3-prototypes-sarahverbelen/tree/master/plugin-react-prototype" target="_blank" class="code"><i class="fas fa-code"></i></a>
+                <h4>Chrome Extension</h4>
+                <p>I made a chrome extension that reads the titles from posts in the subreddit r/worldnews and saves them to a mongoDB database. It also highlights the posts that have less than 1000 upvotes. It comes with a front-end React application that displays the data from the database.</p>
+            </div> 
+
         </section>
 
-        <section id="contact">
+        <section id="contact" data-aos="fade-right">
             <h3>Contact me</h3>
             <ul class="links">
                 <li id="linkedin"><a href="https://www.linkedin.com/in/sarah-verbelen-3336981a0/" target="_blank"><i class="fab fa-linkedin"></i> Sarah Verbelen</a>
