@@ -244,8 +244,14 @@ main {
     margin-right: 5px;
 }
 
-.works div a i:hover {
-    color: #3E2220;;
+#link {
+    color: #F2D6D4;
+    transition: .5s;
+}
+
+
+.works div a i:hover, #link:hover {
+    color: #3E2220;
 }
 
 .works div img {
